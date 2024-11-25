@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тест CMS</title>
+</head>
+<body>
+  <h1>Тест CMS</h1>
+
+  <section>
+    <h2>Створити статтю</h2>
+    <form id="create-article-form">
+      <label>
+        Заголовок:
+        <input type="text" id="article-title" required />
+      </label>
+      <br />
+      <label>
+        Зміст:
+        <textarea id="article-content" required></textarea>
+      </label>
+      <br />
+      <label>
+        Автор:
+        <input type="text" id="article-author" required />
+      </label>
+      <br />
+      <button type="submit">Створити статтю</button>
+    </form>
+    <div id="article-result"></div>
+  </section>
+
+  <script src="dist/main.js"></script>
+</body>
+</html>
